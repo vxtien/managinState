@@ -8,7 +8,7 @@ import ContextComponent from "./managinState/Ex";
 import Menu from "./managinState/Menu";
 import EditProfile from "./managinState/EditProfile"
 
-export const components = [
+export const data = [
     {
         link: '/accordion',
         title: 'Accordion',

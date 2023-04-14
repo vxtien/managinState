@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-import { components } from "./data-components";
+import { data } from "./data";
 const App = () => {
   return (
     <div className="container">
