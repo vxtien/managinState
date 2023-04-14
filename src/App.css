@@ -1,0 +1,50 @@
+Base reset
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem; 
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.app a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 10px;
+}
+
+.app a:hover {
+  color: gray;
+}
